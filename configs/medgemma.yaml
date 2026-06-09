@@ -1,0 +1,3 @@
+model_name: google/medgemma-4b-it
+model_key: medgemma
+model_type: medgemma

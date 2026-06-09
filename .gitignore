@@ -1,0 +1,43 @@
+__pycache__/
+*.pyc
+
+# raw images
+*.png
+*.jpg
+*.jpeg
+*.dcm
+*.dicom
+
+# temporary masked images
+results/tmp_*/
+tmp_*/
+*_matched_patch.jpg
+*_zero.jpg
+*_blur.jpg
+
+# model weights / caches
+models/
+checkpoints/
+.cache/
+huggingface/
+*.safetensors
+*.bin
+*.pt
+*.pth
+
+# environments
+env/
+venv/
+.venv/
+miniforge3/
+conda-meta/
+
+# archives
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.rar
+*.7z
+
+.DS_Store

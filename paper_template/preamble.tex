@@ -1,0 +1,39 @@
+% MedCFA preamble.tex
+% 来源：基于归档 NVT 论文的 preamble，已为 MedCFA 适配。
+
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage{makecell}
+
+% MedCFA 专用宏
+\newcommand{\method}{MedCFA}            % paper short code，可以 `\method{}` 引用
+\newcommand{\deltaflip}{$\Delta$-Flip}  % 主 metric
+\newcommand{\sci}{\mathrm{SCI}}         % Spurious Confidence Index
+\newcommand{\acc}{\mathrm{Acc}}
+
+% 数学操作
+\DeclareMathOperator*{\argmin}{arg\,min}
+\DeclareMathOperator*{\argmax}{arg\,max}
+
+% 集合
+\newcommand{\V}{\mathcal{V}}
+\newcommand{\T}{\mathcal{T}}
+\newcommand{\Q}{\mathcal{Q}}
+\newcommand{\A}{\mathcal{A}}
+\newcommand{\Sset}{\mathcal{S}}
+\newcommand{\Mset}{\mathcal{M}}
+
+% Inline 简写
+\providecommand{\ie}{i.e.}
+\providecommand{\eg}{e.g.}
+\providecommand{\etal}{et al.}
+
+% TODO 高亮（提交前必须 grep 干净）
+\newcommand{\todo}[1]{\textcolor{red}{[TODO: #1]}}
+\newcommand{\fix}[1]{\textcolor{orange}{[FIX: #1]}}
+\newcommand{\check}[1]{\textcolor{blue}{[CHECK: #1]}}

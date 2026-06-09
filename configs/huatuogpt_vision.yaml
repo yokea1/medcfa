@@ -1,0 +1,3 @@
+model_name: FreedomIntelligence/HuatuoGPT-Vision-7B-Qwen2.5VL
+model_key: huatuogpt_vision
+model_type: qwen25_vl

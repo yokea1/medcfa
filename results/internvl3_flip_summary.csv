@@ -1,0 +1,4 @@
+operator,total,original_yes,yes_to_no,yes_to_yes,no_to_yes,no_to_no,other_transitions,delta_flip
+matched_patch,911,773,61,712,70,68,{},0.0789
+zero,911,773,220,553,16,122,{},0.2846
+blur,911,773,201,572,18,120,{},0.2600

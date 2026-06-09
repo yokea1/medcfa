@@ -1,0 +1,3 @@
+model_key,total,yes,no,other,accuracy
+qwen25vl,911,284,627,0,0.31174533479692645
+qwen3vl,911,606,305,0,0.6652030735455543

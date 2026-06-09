@@ -1,0 +1,54 @@
+% MedCFA WACV 2027 投稿主文件骨架
+% 用法：把这个文件作为 main.tex 起点，sections/ 里逐节填内容
+%
+% 编译：
+%   latexmk -pdf main.tex
+% 或者：
+%   pdflatex main && bibtex main && pdflatex main && pdflatex main
+
+\documentclass[10pt,twocolumn,letterpaper]{article}
+
+% WACV 2027 review 模式（投稿时用 review，camera-ready 时改 final）
+\usepackage[review,algorithms]{wacv}
+\input{preamble}
+
+\definecolor{wacvblue}{rgb}{0.21,0.49,0.74}
+\usepackage[pagebackref,breaklinks,colorlinks,allcolors=wacvblue]{hyperref}
+
+% paper ID（投稿系统会给一个）
+\def\wacvPaperID{*****}
+\def\confName{WACV}
+\def\confYear{2027}
+
+\title{Do Medical VLMs Look at the Lesion? \\
+A Mask-Based Counterfactual Audit of Chest X-Ray Vision-Language Models}
+
+\author{Anonymous WACV submission}
+
+\begin{document}
+\maketitle
+
+% =====================================================
+% 按 HANDOFF §17 的 outline 写
+% =====================================================
+
+\input{sections/00_abstract}
+\input{sections/01_intro}
+\input{sections/02_related_work}
+\input{sections/03_protocol}
+\input{sections/04_experiments}
+\input{sections/05_discussion}
+\input{sections/06_conclusion}
+
+% Bibliography
+{
+\small
+\bibliographystyle{ieeenat_fullname}
+\bibliography{main}
+}
+
+% Supplementary（投稿可选；如果有就 \appendix 之后写）
+% \appendix
+% \input{sections/A_supplementary}
+
+\end{document}
