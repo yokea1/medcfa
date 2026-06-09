@@ -41,3 +41,4 @@ conda-meta/
 *.7z
 
 .DS_Store
+cache
