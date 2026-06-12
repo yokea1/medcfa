@@ -1,0 +1,2 @@
+dataset,model,operator,total,grounded_yes,shortcut_yes,stable_no,unstable_no,unknown,grounded_yes_rate,shortcut_yes_rate,stable_no_rate,unstable_no_rate,reliable_coverage,needs_review_rate
+ChestX-Det10,Qwen/Qwen3-VL-8B-Instruct,matched_patch,1476,91,509,691,185,0,0.061653116531165314,0.3448509485094851,0.46815718157181574,0.12533875338753386,0.5298102981029811,0.470189701897019

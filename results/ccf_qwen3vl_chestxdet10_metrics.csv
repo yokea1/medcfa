@@ -1,0 +1,2 @@
+dataset,model,operator,total,covered,abstained,coverage,abstain_rate,selective_accuracy,precision,recall,specificity,f1,tp,tn,fp,fn
+ChestX-Det10,Qwen/Qwen3-VL-8B-Instruct,matched_patch,1476,782,694,0.5298102981029811,0.470189701897019,0.11636828644501279,1.0,0.11636828644501279,0.0,0.20847651775486828,91,0,0,691

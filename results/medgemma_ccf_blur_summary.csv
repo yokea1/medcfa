@@ -1,0 +1,2 @@
+dataset,model,operator,total,grounded_yes,shortcut_yes,stable_no,unstable_no,unknown,grounded_yes_rate,shortcut_yes_rate,stable_no_rate,unstable_no_rate,reliable_coverage,needs_review_rate
+ChestX-Det10,google/medgemma-4b-it,blur,1476,177,477,740,82,0,0.11991869918699187,0.3231707317073171,0.5013550135501355,0.05555555555555555,0.6212737127371274,0.3787262872628726

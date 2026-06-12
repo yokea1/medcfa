@@ -1,0 +1,2 @@
+dataset,model,operator,total,grounded_yes,shortcut_yes,stable_no,unstable_no,unknown,grounded_yes_rate,shortcut_yes_rate,stable_no_rate,unstable_no_rate,reliable_coverage,needs_review_rate
+ChestX-Det10,microsoft/llava-med-v1.5-mistral-7b,zero,1476,173,816,457,30,0,0.11720867208672087,0.5528455284552846,0.30962059620596205,0.02032520325203252,0.4268292682926829,0.573170731707317

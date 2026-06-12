@@ -1,0 +1,2 @@
+dataset,model,operator,total,grounded_yes,shortcut_yes,stable_no,unstable_no,unknown,grounded_yes_rate,shortcut_yes_rate,stable_no_rate,unstable_no_rate,reliable_coverage,needs_review_rate
+ChestX-Det10,Qwen/Qwen2.5-VL-7B-Instruct,blur,1476,156,207,1013,100,0,0.10569105691056911,0.1402439024390244,0.6863143631436315,0.06775067750677506,0.7920054200542005,0.20799457994579945

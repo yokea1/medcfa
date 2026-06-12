@@ -1,0 +1,2 @@
+dataset,model,total,missing,strongly_grounded_yes,strongly_shortcut_yes,strongly_stable_no,strongly_unstable_no,mixed_yes,mixed_no,mixed_or_unknown,strongly_grounded_yes_rate,strongly_shortcut_yes_rate,strongly_stable_no_rate,strongly_unstable_no_rate,mixed_yes_rate,mixed_no_rate,mixed_or_unknown_rate
+ChestX-Det10,OpenGVLab/InternVL3-8B-hf,1476,0,30,306,715,94,69,262,0,0.02032520325203252,0.2073170731707317,0.48441734417344173,0.06368563685636856,0.046747967479674794,0.17750677506775067,0.0

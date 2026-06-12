@@ -1,0 +1,2 @@
+dataset,model,operator,total,grounded_yes,shortcut_yes,stable_no,unstable_no,unknown,grounded_yes_rate,shortcut_yes_rate,stable_no_rate,unstable_no_rate,reliable_coverage,needs_review_rate
+ChestX-Det10,FreedomIntelligence/HuatuoGPT-Vision-7B-Qwen2.5VL,matched_patch,1476,214,234,973,55,0,0.14498644986449866,0.15853658536585366,0.6592140921409214,0.03726287262872629,0.80420054200542,0.19579945799457996

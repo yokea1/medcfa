@@ -1,0 +1,2 @@
+dataset,model,total,missing,strongly_grounded_yes,strongly_shortcut_yes,strongly_stable_no,strongly_unstable_no,mixed_yes,mixed_no,mixed_or_unknown,strongly_grounded_yes_rate,strongly_shortcut_yes_rate,strongly_stable_no_rate,strongly_unstable_no_rate,mixed_yes_rate,mixed_no_rate,mixed_or_unknown_rate
+ChestX-Det10,Qwen/Qwen3-VL-8B-Instruct,1476,0,47,416,669,38,137,169,0,0.03184281842818428,0.28184281842818426,0.4532520325203252,0.025745257452574527,0.09281842818428185,0.11449864498644986,0.0

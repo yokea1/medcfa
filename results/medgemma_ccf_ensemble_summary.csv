@@ -1,0 +1,2 @@
+dataset,model,total,missing,strongly_grounded_yes,strongly_shortcut_yes,strongly_stable_no,strongly_unstable_no,mixed_yes,mixed_no,mixed_or_unknown,strongly_grounded_yes_rate,strongly_shortcut_yes_rate,strongly_stable_no_rate,strongly_unstable_no_rate,mixed_yes_rate,mixed_no_rate,mixed_or_unknown_rate
+ChestX-Det10,google/medgemma-4b-it,1476,0,143,387,667,28,124,127,0,0.09688346883468835,0.2621951219512195,0.4518970189701897,0.018970189701897018,0.08401084010840108,0.08604336043360433,0.0
