@@ -42,3 +42,6 @@ conda-meta/
 
 .DS_Store
 cache
+
+# CCF intermediate per-sample outputs
+results/*_ccf*.jsonl
